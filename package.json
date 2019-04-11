@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-es6-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node src/index.js",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write 'src/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sechmohammed/nodejs-es6-starter-kit.git"
+  },
+  "keywords": [
+    "nodejs",
+    "es6"
+  ],
+  "author": "mohammed osama",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
+  },
+  "bugs": {
+    "url": "https://github.com/sechmohammed/nodejs-es6-starter-kit/issues"
+  },
+  "homepage": "https://github.com/sechmohammed/nodejs-es6-starter-kit#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
